@@ -29,13 +29,13 @@ _SUB_DIR_="4mer";
 #//------------------------------------------------------------------------------
 
 # Input, cleaned data, single text file from GTF_SAM_MAP
-_HDFS_MAP_OUTPUT_CLEAN_="hdfs://bigdata/user/mxba001/herc-txt-out-calibration2-ALL.txt";
+_HDFS_MAP_OUTPUT_CLEAN_="hdfs://bigdata/user/user/herc-txt-out-calibration2-ALL.txt";
 
-_HDFS_MAP_OUTPUT_MOTIF_="hdfs://bigdata/user/mxba001/$_SUB_DIR_/herc-txt-out-motif-$_JOB_PREFIX_$_SEARCH_MOTIF_";
-_HDFS_MAP_OUTPUT_MOTIF2_="hdfs://bigdata/user/mxba001/$_SUB_DIR_/herc-txt-out-motif2-$_JOB_PREFIX_$_SEARCH_MOTIF_";
-_HDFS_MAP_OUTPUT_MOTIF2_CLEAN_="hdfs://bigdata/user/mxba001/$_SUB_DIR_/herc-txt-out-motif2-clean-$_JOB_PREFIX_$_SEARCH_MOTIF_.txt";
-_HDFS_REDUCE_OUTPUT_MOTIF_="hdfs://bigdata/user/mxba001/$_SUB_DIR_/herc-txt-out-motifcounts-$_JOB_PREFIX_$_SEARCH_MOTIF_";
-_TEMP_DIR_="/home/local/mxba001/Spark/_working/$_SUB_DIR_-$_JOB_PREFIX_/$_SEARCH_MOTIF_";
+_HDFS_MAP_OUTPUT_MOTIF_="hdfs://bigdata/user/user/$_SUB_DIR_/herc-txt-out-motif-$_JOB_PREFIX_$_SEARCH_MOTIF_";
+_HDFS_MAP_OUTPUT_MOTIF2_="hdfs://bigdata/user/user/$_SUB_DIR_/herc-txt-out-motif2-$_JOB_PREFIX_$_SEARCH_MOTIF_";
+_HDFS_MAP_OUTPUT_MOTIF2_CLEAN_="hdfs://bigdata/user/user/$_SUB_DIR_/herc-txt-out-motif2-clean-$_JOB_PREFIX_$_SEARCH_MOTIF_.txt";
+_HDFS_REDUCE_OUTPUT_MOTIF_="hdfs://bigdata/user/user/$_SUB_DIR_/herc-txt-out-motifcounts-$_JOB_PREFIX_$_SEARCH_MOTIF_";
+_TEMP_DIR_="/home/local/user/Spark/_working/$_SUB_DIR_-$_JOB_PREFIX_/$_SEARCH_MOTIF_";
 
 #//------------------------------------------------------------------------------
 
