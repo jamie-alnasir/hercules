@@ -37,16 +37,16 @@ from multiprocessing import Pool
 
 # REGULAR JOB FILES
 
-_LFS_GTF_FILE_FILTERED_  = "/home/local/user/hadoop-temp/flybase2006-exons.gtf";
-#_LFS_GTF_FILE_FILTERED_  = "/home/local/user/hadoop-temp/mus-mus-wholebrain-r1.gtf";
+_LFS_GTF_FILE_FILTERED_  = "/home/local/jamie/hadoop-temp/flybase2006-exons.gtf";
+#_LFS_GTF_FILE_FILTERED_  = "/home/local/jamie/hadoop-temp/mus-mus-wholebrain-r1.gtf";
 
 # CALIBRATION JOB FILES
-#_LFS_GTF_FILE_FILTERED_  = "/home/local/user/hadoop-temp/calibration.gtf";
+#_LFS_GTF_FILE_FILTERED_  = "/home/local/jamie/hadoop-temp/calibration.gtf";
 
 
 # SAM reads file path
 # NB: Changed to be an input parameter, no longer needs to be specified herein...
-#_HDFS_SAM_READS_ = "hdfs://bigdata/user/user/Drosophila/sam/sam_reads.sam";
+#_HDFS_SAM_READS_ = "hdfs://bigdata/user/jamie/Drosophila/sam/sam_reads.sam";
 # NB: Changed to be an input parameter
 #_SEARCH_MOTIF_
 #//------------------------------------------------------------------------------

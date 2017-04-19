@@ -28,18 +28,18 @@ _JOB_PREFIX_="calibration2-"; # Trail with - for readability
 
 #//------------------------------------------------------------------------------
 
-_HDFS_SAM_READS_="hdfs://bigdata/user/user/calibration2.sam";
+_HDFS_SAM_READS_="hdfs://bigdata/user/jamie/calibration2.sam";
 
 
-_HDFS_MAP_OUTPUT_="hdfs://bigdata/user/user/herc-txt-out-$_JOB_PREFIX_$_SEARCH_MOTIF_";
-_HDFS_MAP_OUTPUT_CLEAN_="hdfs://bigdata/user/user/herc-txt-out-clean-$_JOB_PREFIX_$_SEARCH_MOTIF_.txt";
-_HDFS_MAP_OUTPUT_MOTIF_="hdfs://bigdata/user/user/herc-txt-out-motif-$_JOB_PREFIX_$_SEARCH_MOTIF_";
-_HDFS_MAP_OUTPUT_MOTIF2_="hdfs://bigdata/user/user/herc-txt-out-motif2-$_JOB_PREFIX_$_SEARCH_MOTIF_";
-_HDFS_MAP_OUTPUT_MOTIF2_CLEAN_="hdfs://bigdata/user/user/herc-txt-out-motif2-clean-$_JOB_PREFIX_$_SEARCH_MOTIF_.txt";
-_HDFS_REDUCE_OUTPUT_MOTIF_="hdfs://bigdata/user/user/herc-txt-out-motifcounts-$_JOB_PREFIX_$_SEARCH_MOTIF_";
+_HDFS_MAP_OUTPUT_="hdfs://bigdata/user/jamie/herc-txt-out-$_JOB_PREFIX_$_SEARCH_MOTIF_";
+_HDFS_MAP_OUTPUT_CLEAN_="hdfs://bigdata/user/jamie/herc-txt-out-clean-$_JOB_PREFIX_$_SEARCH_MOTIF_.txt";
+_HDFS_MAP_OUTPUT_MOTIF_="hdfs://bigdata/user/jamie/herc-txt-out-motif-$_JOB_PREFIX_$_SEARCH_MOTIF_";
+_HDFS_MAP_OUTPUT_MOTIF2_="hdfs://bigdata/user/jamie/herc-txt-out-motif2-$_JOB_PREFIX_$_SEARCH_MOTIF_";
+_HDFS_MAP_OUTPUT_MOTIF2_CLEAN_="hdfs://bigdata/user/jamie/herc-txt-out-motif2-clean-$_JOB_PREFIX_$_SEARCH_MOTIF_.txt";
+_HDFS_REDUCE_OUTPUT_MOTIF_="hdfs://bigdata/user/jamie/herc-txt-out-motifcounts-$_JOB_PREFIX_$_SEARCH_MOTIF_";
 
-_HDFS_MAP_OUTPUT_GC_="hdfs://bigdata/user/user/herc-txt-out-GC-$_JOB_PREFIX_$_SEARCH_MOTIF_";
-_TEMP_DIR_="/home/local/user/Spark/_working/$_JOB_PREFIX_$_SEARCH_MOTIF_";
+_HDFS_MAP_OUTPUT_GC_="hdfs://bigdata/user/jamie/herc-txt-out-GC-$_JOB_PREFIX_$_SEARCH_MOTIF_";
+_TEMP_DIR_="/home/local/jamie/Spark/_working/$_JOB_PREFIX_$_SEARCH_MOTIF_";
 
 #//------------------------------------------------------------------------------
 

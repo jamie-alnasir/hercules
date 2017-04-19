@@ -68,19 +68,19 @@ _NAN_VALUE_=float('nan');#8;
 
 # N-mer mode, use 4 for Fourmer, 5 for Fivemer etc...
 _NMER_MODE_=4;
-_NMER_JOB_PATH_ = "/home/local/user/PhD/_working/4mer-wild-/";
-#_NMER_JOB_PATH_ = "/home/local/user/PhD/_working/4mer-mutant-r2-/";
-#_NMER_JOB_PATH_ = "/home/local/user/PhD/_working/4mer-mus-mus-wholebrain-r1-/";
-#_NMER_JOB_PATH_ = "/home/local/user/PhD/_working/4mer-mus-mus-r1-/";
-#_NMER_JOB_PATH_ = "/home/local/user/PhD/_working/4mer-mus-mus-r2-/";
-#_NMER_JOB_PATH_ = "/home/local/user/PhD/_working/4mer-calibration2-/";
+_NMER_JOB_PATH_ = "/home/local/jamie/PhD/_working/4mer-wild-/";
+#_NMER_JOB_PATH_ = "/home/local/jamie/PhD/_working/4mer-mutant-r2-/";
+#_NMER_JOB_PATH_ = "/home/local/jamie/PhD/_working/4mer-mus-mus-wholebrain-r1-/";
+#_NMER_JOB_PATH_ = "/home/local/jamie/PhD/_working/4mer-mus-mus-r1-/";
+#_NMER_JOB_PATH_ = "/home/local/jamie/PhD/_working/4mer-mus-mus-r2-/";
+#_NMER_JOB_PATH_ = "/home/local/jamie/PhD/_working/4mer-calibration2-/";
  
 # Path to csv file of GC content for all exons of the organism
-#_GC_FILE_PATH_ = "/home/local/user/PhD/_working/4mer-wild-/GC-content.csv";
-#_GC_FILE_PATH_ = "/home/local/user/PhD/_working/4mer-mutant-r2-/GC-content.csv";
-#_GC_FILE_PATH_ = "/home/local/user/PhD/_working/4mer-mus-mus-wholebrain-r1-/GC-content.csv";
-_GC_FILE_PATH_ = "/home/local/user/PhD/_working/4mer-mus-mus-r1-/GC-content.csv";
-#_GC_FILE_PATH_ = "/home/local/user/PhD/_working/4mer-calibration-/GC-content.csv";
+#_GC_FILE_PATH_ = "/home/local/jamie/PhD/_working/4mer-wild-/GC-content.csv";
+#_GC_FILE_PATH_ = "/home/local/jamie/PhD/_working/4mer-mutant-r2-/GC-content.csv";
+#_GC_FILE_PATH_ = "/home/local/jamie/PhD/_working/4mer-mus-mus-wholebrain-r1-/GC-content.csv";
+_GC_FILE_PATH_ = "/home/local/jamie/PhD/_working/4mer-mus-mus-r1-/GC-content.csv";
+#_GC_FILE_PATH_ = "/home/local/jamie/PhD/_working/4mer-calibration-/GC-content.csv";
  
 # Set to true to read in Read-Relative motif position file [DEPRECATED]
 _READ_RELATIVE_=False;
@@ -103,12 +103,12 @@ _MIN_CORRELATION_COUNTS_ = 10; # NORMALLY 10
  
 # Plotting constants
 _PLOT_SCATTER_PT_SIZE_ = 4;
-_PLOT_OUT_PATH_ = "/home/local/user/Dropbox/PySpark/Results/Drosophila/wild-type/plots/"; # add trailing /
-#_PLOT_OUT_PATH_ = "/home/local/user/Dropbox/PySpark/Results/Drosophila/mutant-r2-type/plots/"; # add trailing /
-#_PLOT_OUT_PATH_ = "/home/local/user/Dropbox/PySpark/Results/Mus-musculus/wholebrain-repl1/plots/"; # add trailing /
-#_PLOT_OUT_PATH_ = "/home/local/user/Dropbox/PySpark/Results/Mus-musculus/adrenal-repl1/plots/"; # add trailing /
-#_PLOT_OUT_PATH_ = "/home/local/user/Dropbox/PySpark/Results/Mus-musculus/adrenal-repl2/plots/"; # add trailing /
-#_PLOT_OUT_PATH_ = "/home/local/user/Dropbox/PySpark/Results/Drosophila/Calibration/plots/"; # add trailing /
+_PLOT_OUT_PATH_ = "/home/local/jamie/Dropbox/PySpark/Results/Drosophila/wild-type/plots/"; # add trailing /
+#_PLOT_OUT_PATH_ = "/home/local/jamie/Dropbox/PySpark/Results/Drosophila/mutant-r2-type/plots/"; # add trailing /
+#_PLOT_OUT_PATH_ = "/home/local/jamie/Dropbox/PySpark/Results/Mus-musculus/wholebrain-repl1/plots/"; # add trailing /
+#_PLOT_OUT_PATH_ = "/home/local/jamie/Dropbox/PySpark/Results/Mus-musculus/adrenal-repl1/plots/"; # add trailing /
+#_PLOT_OUT_PATH_ = "/home/local/jamie/Dropbox/PySpark/Results/Mus-musculus/adrenal-repl2/plots/"; # add trailing /
+#_PLOT_OUT_PATH_ = "/home/local/jamie/Dropbox/PySpark/Results/Drosophila/Calibration/plots/"; # add trailing /
 
 
 # Correlations data
@@ -122,10 +122,10 @@ _CORREL_FILE_ = "./Correls-wild.csv";
 
 # Caching of PEARSON-TABLE1 results for certain jobs
 _PEARSON_TABLE_CACHE_ = False;
-#_PEARSON_TABLE_CACHE_FILE_ = "/home/local/user/Dropbox/PySpark/wild.data";
-#_PEARSON_TABLE_CACHE_FILE_ = "/home/local/user/Dropbox/PySpark/mutant-r2.data";
-#_PEARSON_TABLE_CACHE_FILE_ = "/home/local/user/Dropbox/PySpark/Motif-calibration.data";
-#_PEARSON_TABLE_CACHE_FILE_ = "/home/local/user/Dropbox/PySpark/wholebrain-r1-.data";
+#_PEARSON_TABLE_CACHE_FILE_ = "/home/local/jamie/Dropbox/PySpark/wild.data";
+#_PEARSON_TABLE_CACHE_FILE_ = "/home/local/jamie/Dropbox/PySpark/mutant-r2.data";
+#_PEARSON_TABLE_CACHE_FILE_ = "/home/local/jamie/Dropbox/PySpark/Motif-calibration.data";
+#_PEARSON_TABLE_CACHE_FILE_ = "/home/local/jamie/Dropbox/PySpark/wholebrain-r1-.data";
 lstPearsonTblCache = [];
 
 # Latex Generation
@@ -789,7 +789,7 @@ def calcPearson(bPrint):
 def calcPearsonCalib(bPrint):
 	global FIRST_QUARTILE;
 	motif = "CC";   
-	calibFile = "/home/local/user/Dropbox/PySpark/Results/herc-final-CALIB50NORM-CC.csv";
+	calibFile = "/home/local/jamie/Dropbox/PySpark/Results/herc-final-CALIB50NORM-CC.csv";
 	FIRST_QUARTILE = calcFirstQuartile(calibFile);
 	return _calcPearsonCalib(motif, calibFile, bPrint);
  
@@ -1316,16 +1316,16 @@ elif (len(sys.argv) == 2):
 	elif (sys.argv[1] == "4MER-COUNT-HISTO"):
 
 		## 4mers for Wild-type Drosophila
-		## _4MER_JOB_PATH_ = "/home/local/user/PhD/_working/4mer/";
+		## _4MER_JOB_PATH_ = "/home/local/jamie/PhD/_working/4mer/";
 
 		## 4mers for Mutant-r2-type Drosophila
-		#_4MER_JOB_PATH_ = "/home/local/user/PhD/_working/4mer/4mer-mut-r2-/";
+		#_4MER_JOB_PATH_ = "/home/local/jamie/PhD/_working/4mer/4mer-mut-r2-/";
 
 		## 4mers for Mutant-r2-type Drosophila
-		_4MER_JOB_PATH_ = "/home/local/user/PhD/_working/4mer-mut-r2-run2/";
+		_4MER_JOB_PATH_ = "/home/local/jamie/PhD/_working/4mer-mut-r2-run2/";
 
 
-		_4MER_HIST_OUT_PATH_ = "/home/local/user/Dropbox/PySpark/Results/Drosophila/wild-type/count-histograms/";
+		_4MER_HIST_OUT_PATH_ = "/home/local/jamie/Dropbox/PySpark/Results/Drosophila/wild-type/count-histograms/";
 
 		Bases = "ATGC";
 		lstResult = [];
