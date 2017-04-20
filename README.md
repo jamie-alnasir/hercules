@@ -8,7 +8,7 @@ Royal Holloway, University of London
 PREREQUISITES
 
 Apache Spark cluster configured to run PySpark jobs
-GTF genome annotation file
+GTF genome annotation file ** MUST be sorted on chromosome then feature start columns in ascending order
 SAM aligned reads file
 
 1) Transcriptomic feature i.e. CDS, EXON must be filtered from GTF so that the GTF contains
@@ -20,6 +20,11 @@ grep exon input.gtf >new.gtf
 Removal of this specific character can be achieved using the "tr" command:
 
 tr -d ',' < input.sam >output.sam
+
+3) ** GTF file must be sorted ** on chromosome and feature start columns in ascending order to enable
+partitioning of the reads which uses a binary search optimisation. This can be achieved as follows:
+
+cat input.gtf | sort -k1 | sort -k3n,3 $1 > output.gtf
 
 CODE FILES AND THEIR PURPOSE
 
