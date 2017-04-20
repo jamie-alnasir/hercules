@@ -1,7 +1,8 @@
 
 HERCULES SYSTEM FOR ANALYSING K-MER MOTIFS IN TRANSCRIPTOMICS DATA
 
-By Jamie Alnasir (PhD candidate), Hugh Shanahan (PhD Supervisor)
+By Jamie Alnasir (PhD candidate)
+Hugh Shanahan (PhD Supervisor)
 Royal Holloway, University of London
 
 
