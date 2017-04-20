@@ -28,11 +28,15 @@ cat input.gtf | sort -k1 | sort -k3n,3 $1 > output.gtf
 
 CODE FILES AND THEIR PURPOSE
 
+Phase I - for k-mer motif counting on Spark cluster:
 Hercules.py				The PySpark code to partition reads by GTF feature and count motifs
 Hercules-GTF-SAM.sh		The Bash script to run Hercules.py on Spark to partition reads
 Hercules-MOTIF.sh		The Bash script to run Hercules.py on Spark count k-mer for a given Motif (parameter)
 4mer.sh					The MAIN Bash script to run Hercules-MOTIF.sh once for each motif to count ALL k-mers
 
+Phase II - post-cluster analysis of k-mer correlations:
+Hercules-graphit.py				The plain Python code (requirements: Numpy, Scipy and Mattplotlib) to compute
+                          k-mer correlations at various distances, by exon, and motif.
 
 STEPS TO EXECUTE THE ANALYSIS
 
@@ -42,6 +46,8 @@ on the Spark cluster
 
 
 Running the job itself:
+
+Phase I - On the Spark cluster:
 
 1. Execute Hercules-GTF-SAM.sh to partition ALL the reads in input GTF-SAM file by features in GTF annotation file.
 - This runs a single PySpark job to partition the reads.
@@ -58,3 +64,7 @@ but is copied automatically from HDFS to local fille system by the Getmerge comm
 - A single csv file called GC-content.csv will be written to _TEMP_FOLDER_ which contains the mean GC content for
 reads partitioned to each GTF feature.
 
+Phase II -- Offline from cluster:
+
+Run Hercules-graphit.py (this should work on data from the cluster stored on local file system in _TEMP_FOLDER_). It has
+various parameters for different correlations calculations and motif plotting operations. See the code.
