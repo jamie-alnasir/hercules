@@ -1,0 +1,21 @@
+WELCOME TO HERCULES
+initiating system bootstrap...
+removing existing data...
+excuting the PySpark job [Operation: MOTIF_MAP] on the cluster...
+WELCOME TO HERCULES!
+spark.yarn.driver.memoryOverhead is set but does not apply in client mode.
+performing operation: MOTIF_MAP
+excuting the PySpark job [Operation: VECTOR_MAP] on the cluster...
+WELCOME TO HERCULES!
+spark.yarn.driver.memoryOverhead is set but does not apply in client mode.
+performing operation: VECTOR_MAP
+pulling off intermediate MOTIF_MAP vector map-step results from HDFS into /home/local/mxba001/Spark/_working/4mer-wild-/GCAG
+done.
+Uploading cleaned intermediate data to hdfs: hdfs://bigdata/user/mxba001/4mer/herc-txt-out-motif2-clean-wild-GCAG.txt
+excuting the PySpark job [Operation: MOTIF_REDUCE] on the cluster...
+WELCOME TO HERCULES!
+spark.yarn.driver.memoryOverhead is set but does not apply in client mode.
+performing operation: MOTIF_REDUCE
+pulling off final MOTIF_REDUCE results from HDFS into /home/local/mxba001/Spark/_working/4mer-wild-/GCAG
+done.
+done.
