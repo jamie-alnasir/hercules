@@ -1,2 +1,2 @@
 This folder contains result data for Phase I of the Hercules transcriptomics analysis system.
-This comprises of k-mer motif results, where k=4 (fourmers), for two Drosophila Melanogaster datasets.
+This comprises of k-mer motif results, where k=4 (fourmers), for two Drosophila Melanogaster and IVT-Seq (Lahens) datasets.
